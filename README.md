@@ -8,8 +8,8 @@
   <a href="#intro">Intro</a> •
   <a href="#instruções">Instruções</a> •
   <a href="#bibliotecas">Ferramentas Utilizadas</a> •
-  <a href="#Comandos">Comandos interessantes</a> •
-  <a href="#Tutorial Jest">Configurando o Jest</a> •
+  <a href="#comandos-interessantes">Comandos Interessantes</a> •
+  <a href="#tutorial-jest">Configurando o Jest</a> •
 </p>
 
 ## Intro
@@ -52,7 +52,7 @@ No projeto é utilizado as seguintes bibliotecas para realizar os testes:
 - [x] Bcrypt (Encriptador de senhas)
 
 
-### Comandos `INTERESSANTES`.
+## Comandos-`INTERESSANTES`
 
 ```
 # Criando Migrations no Sequelize
@@ -62,7 +62,7 @@ $ npx sequelize db:migrate
 
 ```
 
-### Tutorial Jest.
+## Tutorial-Jest.
 
 - [x] npm install --save-dev jest
 
