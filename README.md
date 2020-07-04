@@ -16,6 +16,8 @@
 
 Trata-se de uma API Node.Js de autenticação que utiliza o Jest para realizar teste unitário e de integração.
 
+Projeto realizado na aula da [Rocketseat](https://www.youtube.com/watch?v=2G_mWfG0DZE).
+
 ## Instruções
 
 É necessário a instalação do [Docker](https://www.docker.com/get-started).
@@ -102,6 +104,3 @@ Iremos utilizar testes de intregração e unitarios.
 -- Testes Unitarios: Testa as funções puras, dados as mesmas variaves não importa o número de vezes elas tem sempre o mesmo retorno, então essas funções puras são funções que geralmente nunca tocam em efeitos colaterais, por exemplo: chamada de api, cadastro nos bancos de dados, elas nunca tocam recursos que podem dar errado, são apenas recursos da própria linguagem como cálculos matemáticos ou geradores de caminhos.
 
 -- Teste de integração: Testa as funcionalidades que podem realizar chamadas de api, cadastro de banco de dados e tudo mais ou seja, ele testa funções que não são puras, que tem efeitos colaterais.
-
-
-
