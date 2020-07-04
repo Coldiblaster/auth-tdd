@@ -8,8 +8,8 @@
   <a href="#intro">Intro</a> •
   <a href="#instruções">Instruções</a> •
   <a href="#bibliotecas">Ferramentas Utilizadas</a> •
-  <a href="#comandos">Comandos interessantes</a> •
-  <a href="#tutorialjest">Configurando o Jest</a> •
+  <a href="#comandos interessantes">Comandos interessantes</a> •
+  <a href="#tutorial jest">Configurando o Jest</a> •
 </p>
 
 ## Intro
