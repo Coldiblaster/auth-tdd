@@ -54,12 +54,13 @@ No projeto é utilizado as seguintes bibliotecas para realizar os testes:
 
 ## Comandos-`INTERESSANTES`
 
-```
+```bash
 # Criando Migrations no Sequelize
 $ npx sequelize migration:create --name=create-nametable
 # Rodar migrations
 $ npx sequelize db:migrate
-
+# Criação do jest.config
+$ npx jest --init
 ```
 
 ## Tutorial-Jest.
@@ -71,9 +72,9 @@ Iremos utilizar uma biblioteca de testes chamada "Jest".
 <ul>
   <li>Primeiramente iremos criar uma pasta chamada: __tests__ (O nome é opcional, foi deixado assim para a pasta ficar sempre no inicio)</li>
   <li>No scripts de inicialização iremos ignorar a pasta tests para que o nodemon não fique reiniciando o projeto toda vez que alterarmos algo dentro da pasta.No "package-lock.json" iremos configurar o script: "dev": "nodemon src/server.js --ignore __tests__"</li>
-  <li>Agora iremos fazer algumas configurações no jest: npx jest --init (ira fazer algumas perguntas)</li>
+  <li>Agora iremos fazer algumas configurações no Jest (jest.config)</li>
+  <li>Comando para criar o jest.config.js: npx jest --init (ira fazer algumas perguntas, as respostas varia de projeto a projeto)</li>
   <ul>
-    <li>Respostas que utilizei (pode ser diferente dependendo o que for fazer)</li>
     <li>√ Would you like to use Jest when running "test" script in "package.json"? ... yes</li>
     <li>√ Choose the test environment that will be used for testing » node</li>
     <li>√ Do you want Jest to add coverage reports? ... no</li>
@@ -84,8 +85,8 @@ Iremos utilizar uma biblioteca de testes chamada "Jest".
 
 Foi gerado um arquivo chamado jest.config.js, iremos fazer algumas modificaçoes nele:
 
-```
-# Descomentar e adicionar true.
+```bash
+# Descomentar e adicionar true no bail.
 $ Ele ira fazer o teste parar assim que houver a primeira falha e a partir dai podemos modificar o teste ou corrigir o código. Se ficasse comentado iria rodar todos os testes até o final.
 # Configurar o testMatch (Ele define quais arquivos tenham testes).
 $ "testMatch: ["**/__tests__/**/*.test.js?(x)"]" -- Desta forma ira pegar todos os arquivos que estejam dentro da pasta __tests__ que terminam com "test.js".
